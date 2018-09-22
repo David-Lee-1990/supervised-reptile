@@ -81,3 +81,6 @@ python run_omniglot.py --inner-iters 4 --train-shots 20 --meta-step 0.25 --check
 python run_omniglot.py --inner-iters 4 --train-shots 20 --meta-step 0.0625 --checkpoint fourth_g1_g2_g3_g4_ckpt $shared | tee fourth_g1_g2_g3_g4.txt
 
 ```
+# Add implementation of the Sin demo in the source paper using tensorflow and pytorch
+
+In the file "sin_reptile"
